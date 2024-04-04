@@ -1,15 +1,25 @@
-package org.animals;
+import org.animals.*;
 
 public class Main {
     public static void main(String[] args) {
-        Animale cane = new Cane();
-        Animale passerotto = new Passerotto();
-        Animale aquila = new Aquila();
-        Animale delfino = new Delfino();
+        Cane cane = new Cane();
+        cane.verso();
+        cane.mangia();
+        cane.dormi();
 
-        cane.emettereSuono();
-        passerotto.emettereSuono();
-        aquila.emettereSuono();
-        delfino.emettereSuono();
+        Passerotto passerotto = new Passerotto();
+        passerotto.verso();
+        passerotto.mangia();
+        passerotto.dormi();
+
+        Aquila aquila = new Aquila();
+        aquila.verso();
+        aquila.mangia();
+        aquila.dormi();
+
+        Delfino delfino = new Delfino();
+        delfino.verso();
+        delfino.mangia();
+        delfino.dormi();
     }
 }

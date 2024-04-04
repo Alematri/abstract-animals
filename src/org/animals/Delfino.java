@@ -2,7 +2,12 @@ package org.animals;
 
 public class Delfino extends Animale {
     @Override
-    public void emettereSuono() {
-        System.out.println("Verso del delfino");
+    public void verso() {
+        System.out.println("Verso del delfino!");
+    }
+
+    @Override
+    public void mangia() {
+        System.out.println("Pesce");
     }
 }
