@@ -13,12 +13,12 @@ public class Main2 {
     }
 
     public static void faiVolare(Volante animale) {
-        System.out.println(animale.getClass().getSimpleName() + " sta volando!");
+        System.out.println(animale.getClass().getSimpleName());
         animale.vola();
     }
 
     public static void faiNuotare(Nuotante animale) {
-        System.out.println(animale.getClass().getSimpleName() + " sta nuotando!");
+        System.out.println(animale.getClass().getSimpleName());
         animale.nuota();
     }
 }

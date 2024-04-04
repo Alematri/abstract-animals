@@ -13,6 +13,6 @@ public class Passerotto extends Animale implements Volante {
 
     @Override
     public void vola() {
-        System.out.println("Sto volando");
+        System.out.println("Sto volando ma un po più in basso di un aquila XD");
     }
 }
